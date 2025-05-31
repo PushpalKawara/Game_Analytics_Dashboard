@@ -1,9 +1,25 @@
+# import streamlit as st
+# import pandas as pd
+# import numpy as np
+# import re
+# import datetime
+# import matplotlib.pyplot as plt
+# from io import BytesIO
+# import xlsxwriter
+# from openpyxl import Workbook
+# from openpyxl.drawing.image import Image as OpenpyxlImage
+# from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
+# from openpyxl.utils import get_column_letter
+# import tempfile
+
+
+# Keep only one copy of these imports:
 import streamlit as st
 import pandas as pd
 import numpy as np
 import re
 import datetime
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt  # <-- Keep this one
 from io import BytesIO
 import xlsxwriter
 from openpyxl import Workbook
@@ -11,7 +27,6 @@ from openpyxl.drawing.image import Image as OpenpyxlImage
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
 import tempfile
-
 # =============================================
 #              AUTHENTICATION
 # =============================================
