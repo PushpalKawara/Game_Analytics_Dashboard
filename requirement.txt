@@ -3,7 +3,7 @@ streamlit
 pandas
 numpy
 openpyxl
-matplotlib
+pip install matplotlib
 xlsxwriter
 workbook
 matplotlib
